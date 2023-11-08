@@ -1,0 +1,44 @@
+.ApplyCard{
+    width:300px;
+    height: 400px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    line-height: 3vh;
+    position: relative;
+}
+.ApplyCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  }
+
+
+.ApplyLoanCard {
+    width:300px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+    line-height: 3vh;
+    position: relative;
+  }
+  
+  .LoanCardFeatures {
+    position: absolute;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden; 
+}
+
+  .LoanCardButtons {
+    /* border: 2px solid black; */
+      /* position: absolute; */
+      margin-bottom: 0;
+      /* bottom: 10px; */
+      width: 100%;
+}
+
+.btn-primary{
+  --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #fff;
+    
+}

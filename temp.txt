@@ -1,0 +1,44 @@
+------Navbar Contents
+
+Support(static page)
+About Us(static page)
+Services
+    -debit card
+        -apply debit card
+        -debit card statement
+        -reset pin
+        -block debit card
+    -credit card
+        -apply for credit-card
+
+        -credit card statement
+        -close credit card
+    -loans
+        -apply for loans
+            -personal loan
+            -car loan
+            -business loan
+            -house loan
+    -transaction history
+login/register
+my profile
+
+
+
+
+----------TABLES
+accounts(account_id, user_id, acc_no, acc_name, acc_type, balance, created_at, updated_at)
+
+ 
+transaction_history( transac_id, acc_id, transac_type, amount, source, status, reason_code, created_at)
+	
+	transac_type withdraw,deposit, debit card, credit card
+	reason_code----->success, failure
+ 
+users(user_id, first_name, last_name, email, password, token, code, verified, verified_at, created_at,updated_at)
+
+loans(loan_id, loan_type, account_id, user_id, total_loan_amount, remaining_loan_amount, loan_duration, )
+
+debit_cards(card_no, account_id, user_id, valid_from, valid_upto, CVV,)
+
+credit_cards(card_no, account_id, user_id, valid_from, valid_upto, CVV, balance, 
